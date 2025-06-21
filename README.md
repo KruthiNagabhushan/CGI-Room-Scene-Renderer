@@ -2,6 +2,8 @@
 
 This project uses a custom CGI engine to render a 3D room scene with various textured and Phong-shaded objects like walls, bed, pillow, blanket, furniture, mirror, window, and light sources.
 
+![Rendered Room Scene](output.png)
+
 ## 📸 Overview
 
 The room scene includes:
@@ -85,5 +87,5 @@ All textures are loaded using the `Pillow` (`PIL`) library and passed into the e
 from PIL import Image
 im = Image.open("Wood.jpg")
 ```
-![Rendered Room Scene](output.png)
+
 
